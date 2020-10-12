@@ -1,1 +1,8 @@
-
+body{
+background-color:black;
+}
+p{
+color:blue;
+text-size: 15%;
+font-family: 'trebuchet ms';
+}
