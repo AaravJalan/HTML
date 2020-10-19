@@ -102,7 +102,7 @@ opacity:0.6;
   padding:0px 310px;
   opacity: 0.8;
   font-size: 45px;
-  letter-spacing: 10px;
+  letter-spacing: 8.5px;
   margin-bottom: 10px;
   font-family:"Raleway";
 
@@ -110,7 +110,7 @@ opacity:0.6;
 
 .top-wrapper p {
   opacity: 0.8;
-  font-family:trebuchet ms;
+  font-family:raleway;
   font-size:29px;
 }
 
