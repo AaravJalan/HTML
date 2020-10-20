@@ -1,11 +1,6 @@
-body {
-  margin: 0;
-}
-
 a {
   text-decoration: none;
 }
-
 header {
 line-height: 20px;
 width:1300;
@@ -20,14 +15,11 @@ z-index:10;
 .home:hover{
 opacity:1;
 }
-
 html{
   background-image: url("Background.png");
   background-size: cover;
   background-position: center;
-
 }
-
 .a{position:fixed;
 top:0;
 left:13%;
@@ -52,8 +44,6 @@ top:0;
 left:65%;
 z-index:10;
 }
-
-
 .home {
 float: left;
 padding-left: 40px;
@@ -68,23 +58,18 @@ top:0;
 z-index:11;
 opacity:0.6;
 }
-
-
 .header-list li {
   float: left;
   padding: 33px 120px 50px 100px;
   color: white;
   font-family:Raleway;
   font-size:23px;
-
 }
-
 .main {
  padding: 35px 80px 60px 15px;
  background-color:#FFDF00;
  width:95%;
 }
-
 .container {
   width: 85%;
   padding: 0 15px;
@@ -97,7 +82,6 @@ opacity:0.6;
   margin:auto;
   text-align:center;
 }
-
 .top-wrapper h1 {
   padding:0px 310px;
   opacity: 0.8;
@@ -105,17 +89,12 @@ opacity:0.6;
   letter-spacing: 8.5px;
   margin-bottom: 10px;
   font-family:"Raleway";
-
 }
-
 .top-wrapper p {
   opacity: 0.8;
   font-family:raleway;
   font-size:29px;
 }
-
-
-
 .btn{
 padding-top: 12px;
 padding-bottom: 8px;
@@ -126,11 +105,8 @@ display: inline-block;
 opacity: 0.8;
 font-family:"Raleway";
 width:97%;
-
 }
-
 .login{
-
 color: white;
 font-family:raleway;
 display: block;
@@ -146,16 +122,10 @@ position:fixed;
 top:0;
 left:89.5%;
 z-index:10;
-
-
 }
-
-
 .login:hover{
 opacity:1;
 }
-
-
 .signup{
   background-color:blue;
   font-family:"Raleway";
@@ -165,26 +135,21 @@ opacity:1;
   background-color: #0066ff;
   font-family:"Raleway";
 }
-
 .btn-wrapper {
 padding-top:20px ;
 margin:auto;
 text-align:center;
 padding:0 50px;
 }
-
 .btn-wrapper b {
 margin-top: 15px;
 margin-bottom: 0px;
 font-size:20px;
 float:center;
-
 }
-
 .btn:hover{
   opacity:1;
 }
-
 .right a{
 line-height: 65px;
 padding-left: 25px;
@@ -195,56 +160,6 @@ display: block;
 .right{
   float:right;
 }
-
 .fa {
 margin:110px;
-}
-
-
-
-@media all and (max-width: 1000px) {
-    .top-wrapper h1 {
-    font-size: 37px;
-  }
-  .top-wrapper p {
-    font-size: 25px;
-  }
-  .login{
-    font-size:15%;
-
-}
-  .column {
-  width: 47%;
-}
-  .marquee-wrapper{
-    display:block;
-  }
-}
- @media all and (max-width: 670px) {  
-  .btn {
-  width: 100%;
-
-
-  }
-  .header-list{
-    font-size:18px;
-  }
-    .login{
-    font-size:15%;
-    }
-  .top-wrapper h1 {
-    font-size: 24px;
-    line-height: 36px;
-  }
-  .top-wrapper p {
-    font-size: 14px;
-    line-height: 20px;
-  }
-  .btn-wrapper b {
-  padding-left:20px;
-}
-  .column {
-  width: 95%;
-}
-
 }
