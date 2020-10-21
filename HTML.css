@@ -19,7 +19,7 @@ html{
   /*background-image: url("Background.png");*/
   background-size: cover;
   background-position: center;
-  background-color:cyan;
+  background-color:#3C91E6;
 }
 .a{position:fixed;
 top:0;
@@ -68,7 +68,6 @@ opacity:0.6;
 }
 .main {
  padding: 35px 80px 60px 15px;
- background-color:#FFDF00;
  width:95%;
 }
 .container {
