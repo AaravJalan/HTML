@@ -16,9 +16,10 @@ z-index:10;
 opacity:1;
 }
 html{
-  background-image: url("Background.png");
+  /*background-image: url("Background.png");*/
   background-size: cover;
   background-position: center;
+  background-color:black;
 }
 .a{position:fixed;
 top:0;
